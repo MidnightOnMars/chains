@@ -4,10 +4,15 @@
     "baseUrl": "https://api.etherscan.io",
     "name": "ethereum"
   },
-  "4": {
+  "5": {
     "apiRoute": "api?module=contract&action=getabi",
-    "baseUrl": "https://api-rinkeby.etherscan.io",
-    "name": "rinkeby"
+    "baseUrl": "https://api-goerli.etherscan.io",
+    "name": "ethereum-goerli-testnet"
+  },
+  "11155111": {
+    "apiRoute": "api?module=contract&action=getabi",
+    "baseUrl": "https://api-sepolia.etherscan.io",
+    "name": "ethereum-sepolia-testnet"
   },
   "10":{
     "apiRoute": "api?module=contract&action=getabi",
@@ -29,24 +34,84 @@
     "baseUrl": "https://api.polygonscan.com",
     "name": "polygon"
   },
+  "80001": {
+    "apiRoute": "api?module=contract&action=getabi",
+    "baseUrl": "https://api-testnet.polygonscan.com",
+    "name": "polygon-testnet"
+  },
   "42161": {
     "apiRoute": "api?module=contract&action=getabi",
     "baseUrl": "https://api.arbiscan.io",
     "name": "arbitrum-one"
   },
-  "43113": {
+  "42170": {
     "apiRoute": "api?module=contract&action=getabi",
-    "baseUrl": "https://api-testnet.snowtrace.io",
-    "name": "avalanche-testnet"
+    "baseUrl": "https://api-nova.arbiscan.io",
+    "name": "arbitrum-nova"
   },
   "43114": {
     "apiRoute": "api?module=contract&action=getabi",
     "baseUrl": "https://api.snowtrace.io",
     "name": "avalanche"
   },
-  "80001": {
+  "43113": {
     "apiRoute": "api?module=contract&action=getabi",
-    "baseUrl": "https://api-testnet.polygonscan.com",
-    "name": "polygon-testnet"
+    "baseUrl": "https://api-testnet.snowtrace.io",
+    "name": "avalanche-testnet"
+  },
+  "59144": {
+    "apiRoute": "api?module=contract&action=getabi",
+    "baseUrl": "https://api.lineascan.build",
+    "name": "linea"
+  },
+  "59140": {
+    "apiRoute": "api?module=contract&action=getabi",
+    "baseUrl": "https://api-testnet.lineascan.build",
+    "name": "linea-goerli-testnet"
+  },
+  "250": {
+    "apiRoute": "api?module=contract&action=getabi",
+    "baseUrl": "https://api.ftmscan.com",
+    "name": "fantom-opera"
+  },
+  "4002": {
+    "apiRoute": "api?module=contract&action=getabi",
+    "baseUrl": "https://api-testnet.ftmscan.com",
+    "name": "fantom-testnet"
+  },
+  "100": {
+    "apiRoute": "api?module=contract&action=getabi",
+    "baseUrl": "https://api.gnosisscan.io",
+    "name": "gnosis"
+  },
+  "8453": {
+    "apiRoute": "api?module=contract&action=getabi",
+    "baseUrl": "https://api.basescan.org",
+    "name": "base"
+  },
+  "8453": {
+    "apiRoute": "api?module=contract&action=getabi",
+    "baseUrl": "https://api.basescan.org",
+    "name": "base"
+  },
+  "84531": {
+    "apiRoute": "api?module=contract&action=getabi",
+    "baseUrl": "https://api-goerli.basescan.org",
+    "name": "base-goerli-testnet"
+  },
+  "84532": {
+    "apiRoute": "api?module=contract&action=getabi",
+    "baseUrl": "https://api-sepolia.basescan.org",
+    "name": "base-sepolia-testnet"
+  },
+    "1313161554": {
+    "apiRoute": "api?module=contract&action=getabi",
+    "baseUrl": "https://api.aurorascan.dev",
+    "name": "aurora"
+  },
+    "42220": {
+    "apiRoute": "api?module=contract&action=getabi",
+    "baseUrl": "https://api.celoscan.io",
+    "name": "celo"
   }
 }
