@@ -113,5 +113,15 @@
     "apiRoute": "api?module=contract&action=getabi",
     "baseUrl": "https://api.celoscan.io",
     "name": "celo"
+  },
+    "14": {
+    "apiRoute": "api?module=contract&action=getabi",
+    "baseUrl": "https://api.routescan.io/v2/network/mainnet/evm/14/etherscan/",
+    "name": "flare"
+  },
+    "5000": {
+    "apiRoute": "api?module=contract&action=getabi",
+    "baseUrl": "https://api.routescan.io/v2/network/mainnet/evm/5000/etherscan/",
+    "name": "mantle"
   }
 }
